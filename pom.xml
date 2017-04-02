@@ -11,6 +11,7 @@
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Simple toolkit to help test writing with Java</description>
+    <url>https://github.com/seanyinx/test-toolkit</url>
 
     <licenses>
         <license>
@@ -28,7 +29,7 @@
     </developers>
 
     <scm>
-        <url>https://github.com/seanyinx/test-toolkit.git</url>
+        <url>https://github.com/seanyinx/test-toolkit</url>
         <connection>scm:git:https://github.com/seanyinx/test-toolkit.git</connection>
         <developerConnection>scm:git:https://github.com/seanyinx/test-toolkit.git</developerConnection>
         <tag>v${project.version}</tag>
