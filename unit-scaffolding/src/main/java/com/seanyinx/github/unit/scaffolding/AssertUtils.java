@@ -1,4 +1,4 @@
-package io.seanyinx.github.unit.scaffolding;
+package com.seanyinx.github.unit.scaffolding;
 
 import static org.junit.Assert.fail;
 
