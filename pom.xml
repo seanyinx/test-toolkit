@@ -5,7 +5,7 @@
     <groupId>com.github.seanyinx</groupId>
     <artifactId>test-toolkit</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Simple toolkit to help test writing with Java</description>
@@ -30,7 +30,7 @@
         <url>https://github.com/seanyinx/test-toolkit</url>
         <connection>scm:git:https://github.com/seanyinx/test-toolkit.git</connection>
         <developerConnection>scm:git:https://github.com/seanyinx/test-toolkit.git</developerConnection>
-        <tag>test-toolkit-1.0.0</tag>
+        <tag>v${project.version}</tag>
     </scm>
 
     <modules>
