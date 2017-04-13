@@ -35,7 +35,7 @@ public class Poller {
         try {
             TimeUnit.MILLISECONDS.sleep(pollingIntervalMillis);
         } catch (InterruptedException e) {
-            Thread.interrupted();
+            Thread.currentThread().interrupt();
         }
     }
 
